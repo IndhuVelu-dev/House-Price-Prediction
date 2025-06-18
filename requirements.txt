@@ -1,0 +1,14 @@
+# To set up your environment, run these commands one by one in your terminal (do NOT put them in requirements.txt):
+
+
+
+
+# Only the following lines should be in requirements.txt:
+flask
+flask-cors
+numpy
+pandas
+scikit-learn
+matplotlib
+
+

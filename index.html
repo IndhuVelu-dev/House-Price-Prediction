@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>House Price Predictor</title>
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.umd.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <div id="root"></div>
+
+  <!-- Your React Component -->
+  <script src="./HousePricePredictor.js"></script>
+
+  <!-- Render it -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      ReactDOM.render(
+        React.createElement(HousePricePredictor),
+        document.getElementById("root")
+      );
+    });
+  </script>
+</body>
+</html>
